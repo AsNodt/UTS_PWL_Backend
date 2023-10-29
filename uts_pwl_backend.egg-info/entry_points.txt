@@ -1,0 +1,5 @@
+[console_scripts]
+initialize_uts_pwl_backend_db = uts_pwl_backend.scripts.initialize_db:main
+
+[paste.app_factory]
+main = uts_pwl_backend:main

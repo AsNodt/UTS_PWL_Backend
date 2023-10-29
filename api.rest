@@ -1,0 +1,33 @@
+@base_url = http://127.0.0.1:6543/api/product
+### GET All Article
+GET {{base_url}}
+
+### create product
+POST {{base_url}}
+
+{
+
+    "name": "Sepatu SupeRRR",
+    "price": 300,
+    "stock": 10,
+    "description": "Sepatu ini harus dirawat seperti anak sendiri"
+
+}
+
+### update product
+PUT {{base_url}}
+
+{
+    "id": 1,
+    "name": "Sepatu keren",
+    "price": 300000,
+    "stock": 10,
+    "description": "Sepatu ini harus dirawat seperti anak sendiri"
+}
+
+### delete product
+DELETE {{base_url}}
+
+{
+    "id": 6
+}
